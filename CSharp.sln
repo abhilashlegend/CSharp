@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "BubbleSort\Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tables", "Tables\Tables.csproj", "{B895D12B-E211-4634-A441-5BB3567895F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParse", "TryParse\TryParse.csproj", "{2B92AF47-CC4E-42DF-AD13-6156FDF3103E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{B895D12B-E211-4634-A441-5BB3567895F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B895D12B-E211-4634-A441-5BB3567895F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B895D12B-E211-4634-A441-5BB3567895F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B92AF47-CC4E-42DF-AD13-6156FDF3103E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B92AF47-CC4E-42DF-AD13-6156FDF3103E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B92AF47-CC4E-42DF-AD13-6156FDF3103E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B92AF47-CC4E-42DF-AD13-6156FDF3103E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

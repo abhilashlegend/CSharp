@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternary", "Ternary\Ternary.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Even", "Even\Even.csproj", "{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odd", "Odd\Odd.csproj", "{3FF43625-B6DC-4D7F-B214-B707AE4CC111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF43625-B6DC-4D7F-B214-B707AE4CC111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF43625-B6DC-4D7F-B214-B707AE4CC111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF43625-B6DC-4D7F-B214-B707AE4CC111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF43625-B6DC-4D7F-B214-B707AE4CC111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

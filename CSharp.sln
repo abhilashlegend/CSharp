@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz\Quiz.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternary", "Ternary\Ternary.csproj", "{DD5049F8-5811-4F68-9E75-5D5170CFA53E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Even", "Even\Even.csproj", "{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{DD5049F8-5811-4F68-9E75-5D5170CFA53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD5049F8-5811-4F68-9E75-5D5170CFA53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD5049F8-5811-4F68-9E75-5D5170CFA53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C250BE04-41FE-4335-A2F6-56C56BEDA2DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

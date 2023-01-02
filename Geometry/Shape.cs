@@ -10,7 +10,7 @@ namespace Geometry
     abstract class Shape
     {
         private double volume;
-        const double pi = 3.142;
+        protected const double pi = 3.142;
 
         public abstract double getVolume();
 

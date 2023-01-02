@@ -51,4 +51,24 @@ namespace Geometry
             return  Length * Width * Height;
         }
     }
+
+    class Cube : Shape
+    {
+        private double length;
+
+        public double Length
+        {
+            get { return this.length; }
+
+            set
+            {
+                this.length = value;
+            }
+        }
+
+        public override double getVolume()
+        {
+            return length * length * length;
+        }
+    }
 }

@@ -61,9 +61,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assign3", "Assign3\Assign3.csproj", "{2D015439-88A3-4055-B9D6-0DCB7E72697F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassProperties", "ClassProperties\ClassProperties.csproj", "{C56CF6A2-51B1-4662-9FC7-4C25D7EACABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassProperties", "ClassProperties\ClassProperties.csproj", "{C56CF6A2-51B1-4662-9FC7-4C25D7EACABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{AD236C9F-36F2-4A08-99E8-091AE0F363E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geometry.csproj", "{AD236C9F-36F2-4A08-99E8-091AE0F363E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{317B200A-4082-49D8-B476-73BCA6F348E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{AD236C9F-36F2-4A08-99E8-091AE0F363E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD236C9F-36F2-4A08-99E8-091AE0F363E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD236C9F-36F2-4A08-99E8-091AE0F363E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317B200A-4082-49D8-B476-73BCA6F348E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317B200A-4082-49D8-B476-73BCA6F348E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317B200A-4082-49D8-B476-73BCA6F348E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317B200A-4082-49D8-B476-73BCA6F348E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

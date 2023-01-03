@@ -67,6 +67,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geomet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{317B200A-4082-49D8-B476-73BCA6F348E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marks", "Marks\Marks.csproj", "{55DE6464-3508-4B23-9D40-C95C0ECF2835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{317B200A-4082-49D8-B476-73BCA6F348E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{317B200A-4082-49D8-B476-73BCA6F348E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{317B200A-4082-49D8-B476-73BCA6F348E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DE6464-3508-4B23-9D40-C95C0ECF2835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DE6464-3508-4B23-9D40-C95C0ECF2835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DE6464-3508-4B23-9D40-C95C0ECF2835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DE6464-3508-4B23-9D40-C95C0ECF2835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

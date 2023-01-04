@@ -65,11 +65,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassProperties", "ClassPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometry", "Geometry\Geometry.csproj", "{AD236C9F-36F2-4A08-99E8-091AE0F363E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{317B200A-4082-49D8-B476-73BCA6F348E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{317B200A-4082-49D8-B476-73BCA6F348E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marks", "Marks\Marks.csproj", "{55DE6464-3508-4B23-9D40-C95C0ECF2835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marks", "Marks\Marks.csproj", "{55DE6464-3508-4B23-9D40-C95C0ECF2835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assign4", "Assign4\Assign4.csproj", "{2A813349-2C63-4D56-B334-8C29F081149A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assign4", "Assign4\Assign4.csproj", "{2A813349-2C63-4D56-B334-8C29F081149A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputTester", "InputTester\InputTester.csproj", "{7B609626-7A25-448C-9C2C-5A7D53EE3BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{2A813349-2C63-4D56-B334-8C29F081149A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A813349-2C63-4D56-B334-8C29F081149A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A813349-2C63-4D56-B334-8C29F081149A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B609626-7A25-448C-9C2C-5A7D53EE3BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B609626-7A25-448C-9C2C-5A7D53EE3BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B609626-7A25-448C-9C2C-5A7D53EE3BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B609626-7A25-448C-9C2C-5A7D53EE3BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -73,11 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assign4", "Assign4\Assign4.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputTester", "InputTester\InputTester.csproj", "{7B609626-7A25-448C-9C2C-5A7D53EE3BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimensionalArrays", "MultiDimensionalArrays\MultiDimensionalArrays.csproj", "{BAB3AFAA-8031-4069-9981-0A910F1D3D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiDimensionalArrays", "MultiDimensionalArrays\MultiDimensionalArrays.csproj", "{BAB3AFAA-8031-4069-9981-0A910F1D3D31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArrays", "2DArrays\2DArrays.csproj", "{313D1BCA-19E8-465D-94AB-1427C6A0CBA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DArrays", "2DArrays\2DArrays.csproj", "{313D1BCA-19E8-465D-94AB-1427C6A0CBA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assign5", "Assign5\Assign5.csproj", "{29EE55EE-0632-42FE-A991-FD654F80FC0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assign5", "Assign5\Assign5.csproj", "{29EE55EE-0632-42FE-A991-FD654F80FC0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tictactoe", "tictactoe\tictactoe.csproj", "{5A9F8DF6-D4F6-43CE-BCEE-827917AD26AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{29EE55EE-0632-42FE-A991-FD654F80FC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29EE55EE-0632-42FE-A991-FD654F80FC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29EE55EE-0632-42FE-A991-FD654F80FC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9F8DF6-D4F6-43CE-BCEE-827917AD26AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9F8DF6-D4F6-43CE-BCEE-827917AD26AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9F8DF6-D4F6-43CE-BCEE-827917AD26AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9F8DF6-D4F6-43CE-BCEE-827917AD26AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

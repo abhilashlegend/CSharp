@@ -17,6 +17,17 @@ void ParamsMethod(params object[] stuff)
     }
 }
 
+int FindMinValue(params int[] numbers)
+{
+    int min = int.MaxValue;
+
+    foreach(int number in numbers)
+    {
+        if(number < min) min = number;
+    }
+    return min;
+}
+
 ParamsFunction("This", "is", "a", "test", "message");
 
 int price = 50;
@@ -25,4 +36,8 @@ char at = '@';
 string book = "The Hobbit";
 
 ParamsMethod(price, pi, at, book);
+
+int min = FindMinValue(59, 78, 6, 45, 9, 658, 42);
+Console.WriteLine("The minimum value from the given numbers is {0}", min);
+
 Console.ReadLine();

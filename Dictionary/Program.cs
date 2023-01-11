@@ -46,6 +46,38 @@ namespace Dictionary
                 Console.WriteLine("The role does not exists");
             }
 
+            // Updating A Dictionary 
+            string keyToUpdate = "HR";
+            if(employeeDirectory.ContainsKey(keyToUpdate))
+            {
+                employeeDirectory[keyToUpdate] = new Employee("HR", "Anusha Patel", 26, 18);
+                Console.WriteLine("Employee with Role {0} was updated!", keyToUpdate);
+            } else
+            {
+                Console.WriteLine("Employee with role {0} was not found", keyToUpdate);
+            }
+
+            // Remove A record from dictionary
+            string keyToRemove = "Intern";
+
+            if(employeeDirectory.Remove(keyToRemove))
+            {
+                Console.WriteLine("Employee with role {0} was removed", keyToRemove);
+            } else
+            {
+                Console.WriteLine("Employee with role {0} was not found", keyToRemove);
+            }
+
+            for(int i = 0; i < employeeDirectory.Count; i++)
+            {
+                KeyValuePair<string, Employee> keyValuePair = employeeDirectory.ElementAt(i);
+
+                Console.WriteLine("Employee Name {0}", keyValuePair.Value.Name);
+                Console.WriteLine("Employee Age {0}", keyValuePair.Value.Age);
+                Console.WriteLine("Employee Role {0}", keyValuePair.Value.Role);
+                Console.WriteLine("Employee Salary {0}", keyValuePair.Value.Salary);
+            }
+
             Console.ReadLine();
         }
 

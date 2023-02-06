@@ -33,7 +33,7 @@ namespace Assign8
         }
     }
 
-    public class PhoneBook : IEnumerable
+    public class PhoneBook : IEnumerable<Contact>
     {
         public List<Contact> Contacts = new List<Contact> {
                 new Contact("Andre", "435797087"),
@@ -45,6 +45,11 @@ namespace Assign8
         public IEnumerator GetEnumerator()
         {
            return Contacts.GetEnumerator();
+        }
+
+        IEnumerator<Contact> IEnumerable<Contact>.GetEnumerator()
+        {
+            throw new NotImplementedException();
         }
     }
 }

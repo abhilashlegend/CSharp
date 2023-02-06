@@ -21,6 +21,9 @@
             bmwM3.ShowDetails();
             a6.ShowDetails();
 
+            M3 myM3 = new M3(500, "purple", "M3");
+            myM3.Repair();
+
             Console.ReadLine();
         }
     }

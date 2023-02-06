@@ -22,7 +22,7 @@ namespace Polymorphism
             Console.WriteLine("The BMW is {0} model which is {1} HP and the color is {2}", this.Model, this.Hp, this.Color);
         }
 
-        public override void Repair()
+        public sealed override void Repair()
         {
             Console.WriteLine("{0} {1} is repaired", this.brand, this.Model);
         }

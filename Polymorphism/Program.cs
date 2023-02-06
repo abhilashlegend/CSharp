@@ -24,6 +24,12 @@
             M3 myM3 = new M3(500, "purple", "M3");
             myM3.Repair();
 
+            bmwM3.SetCarIDInfo(8888, "Abhilash N");
+            a6.SetCarIDInfo(1111, "Anup K");
+
+            bmwM3.GetCarIDinfo();
+            a6.GetCarIDinfo();
+
             Console.ReadLine();
         }
     }

@@ -127,7 +127,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerableDemo", "IEnumera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assign8", "Assign8\Assign8.csproj", "{E1D33FBA-D261-42F8-AC7B-90A0182A46B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{B80E90C5-563D-4A36-B7AB-5C3231294F00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{B80E90C5-563D-4A36-B7AB-5C3231294F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{340CC39E-7A40-4876-960D-B6FD2F137A89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -387,6 +389,10 @@ Global
 		{B80E90C5-563D-4A36-B7AB-5C3231294F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B80E90C5-563D-4A36-B7AB-5C3231294F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B80E90C5-563D-4A36-B7AB-5C3231294F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340CC39E-7A40-4876-960D-B6FD2F137A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340CC39E-7A40-4876-960D-B6FD2F137A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340CC39E-7A40-4876-960D-B6FD2F137A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340CC39E-7A40-4876-960D-B6FD2F137A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -131,9 +131,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract", "Abstract\Abstract.csproj", "{340CC39E-7A40-4876-960D-B6FD2F137A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTxtFile", "ReadTxtFile\ReadTxtFile.csproj", "{937B2691-D9BC-4B42-80D0-543A8FF2162E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadTxtFile", "ReadTxtFile\ReadTxtFile.csproj", "{937B2691-D9BC-4B42-80D0-543A8FF2162E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteTextFile", "WriteTextFile\WriteTextFile.csproj", "{627165FB-9BE1-4823-BA21-3457F268BE56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteTextFile", "WriteTextFile\WriteTextFile.csproj", "{627165FB-9BE1-4823-BA21-3457F268BE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct", "struct\struct.csproj", "{86FB7535-C3A4-4DC6-8A37-7F703B078789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +407,10 @@ Global
 		{627165FB-9BE1-4823-BA21-3457F268BE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{627165FB-9BE1-4823-BA21-3457F268BE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{627165FB-9BE1-4823-BA21-3457F268BE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FB7535-C3A4-4DC6-8A37-7F703B078789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FB7535-C3A4-4DC6-8A37-7F703B078789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FB7535-C3A4-4DC6-8A37-7F703B078789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FB7535-C3A4-4DC6-8A37-7F703B078789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

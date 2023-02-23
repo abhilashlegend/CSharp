@@ -137,6 +137,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteTextFile", "WriteTextF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct", "struct\struct.csproj", "{86FB7535-C3A4-4DC6-8A37-7F703B078789}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumExample", "EnumExample\EnumExample.csproj", "{B895C2F8-1B00-47E5-972E-6CF4C1D81053}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +413,10 @@ Global
 		{86FB7535-C3A4-4DC6-8A37-7F703B078789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86FB7535-C3A4-4DC6-8A37-7F703B078789}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86FB7535-C3A4-4DC6-8A37-7F703B078789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B895C2F8-1B00-47E5-972E-6CF4C1D81053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B895C2F8-1B00-47E5-972E-6CF4C1D81053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B895C2F8-1B00-47E5-972E-6CF4C1D81053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B895C2F8-1B00-47E5-972E-6CF4C1D81053}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

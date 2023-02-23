@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumExample", "EnumExample\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathClass", "MathClass\MathClass.csproj", "{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random", "Random\Random.csproj", "{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -423,6 +425,10 @@ Global
 		{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

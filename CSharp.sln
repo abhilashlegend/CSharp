@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct", "struct\struct.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumExample", "EnumExample\EnumExample.csproj", "{B895C2F8-1B00-47E5-972E-6CF4C1D81053}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathClass", "MathClass\MathClass.csproj", "{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{B895C2F8-1B00-47E5-972E-6CF4C1D81053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B895C2F8-1B00-47E5-972E-6CF4C1D81053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B895C2F8-1B00-47E5-972E-6CF4C1D81053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

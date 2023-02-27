@@ -135,13 +135,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadTxtFile", "ReadTxtFile\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteTextFile", "WriteTextFile\WriteTextFile.csproj", "{627165FB-9BE1-4823-BA21-3457F268BE56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct", "struct\struct.csproj", "{86FB7535-C3A4-4DC6-8A37-7F703B078789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "struct", "struct\struct.csproj", "{86FB7535-C3A4-4DC6-8A37-7F703B078789}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumExample", "EnumExample\EnumExample.csproj", "{B895C2F8-1B00-47E5-972E-6CF4C1D81053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumExample", "EnumExample\EnumExample.csproj", "{B895C2F8-1B00-47E5-972E-6CF4C1D81053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathClass", "MathClass\MathClass.csproj", "{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathClass", "MathClass\MathClass.csproj", "{9C15BD72-8463-43DA-8BB2-B2AFA18A71B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random", "Random\Random.csproj", "{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random", "Random\Random.csproj", "{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTime.csproj", "{C293E82B-7463-4892-B0D4-CBE2BBE01872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -429,6 +431,10 @@ Global
 		{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C293E82B-7463-4892-B0D4-CBE2BBE01872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C293E82B-7463-4892-B0D4-CBE2BBE01872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C293E82B-7463-4892-B0D4-CBE2BBE01872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C293E82B-7463-4892-B0D4-CBE2BBE01872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

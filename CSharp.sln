@@ -143,11 +143,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathClass", "MathClass\Math
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random", "Random\Random.csproj", "{A69FC38A-CEC6-4835-B4F8-DA9CF8C65F18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTime.csproj", "{C293E82B-7463-4892-B0D4-CBE2BBE01872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime", "DateTime\DateTime.csproj", "{C293E82B-7463-4892-B0D4-CBE2BBE01872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{B04E6C42-8D5A-4D3F-B76F-152BCB0370C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nullable", "Nullable\Nullable.csproj", "{B04E6C42-8D5A-4D3F-B76F-152BCB0370C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainArgs", "MainArgs\MainArgs.csproj", "{9C618EB4-2400-47AB-BD71-E5A7F15D8337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainArgs", "MainArgs\MainArgs.csproj", "{9C618EB4-2400-47AB-BD71-E5A7F15D8337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExample", "DelegateExample\DelegateExample.csproj", "{195C8D41-4717-4A41-A037-CDE78E60AE1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -447,6 +449,10 @@ Global
 		{9C618EB4-2400-47AB-BD71-E5A7F15D8337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C618EB4-2400-47AB-BD71-E5A7F15D8337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C618EB4-2400-47AB-BD71-E5A7F15D8337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195C8D41-4717-4A41-A037-CDE78E60AE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195C8D41-4717-4A41-A037-CDE78E60AE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195C8D41-4717-4A41-A037-CDE78E60AE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195C8D41-4717-4A41-A037-CDE78E60AE1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

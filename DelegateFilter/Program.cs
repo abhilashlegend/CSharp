@@ -32,6 +32,23 @@
                 return p.Age > 60;
             });
 
+            char SearckKey = 'N';
+
+            /* Lambda Function */
+            DisplayPeople("Age greater than 20 with Key Search " + SearckKey, people, (Person p) =>
+            {
+                if(p.Age > 20 && p.Name.Contains(SearckKey))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            });
+
+
+
             Console.ReadLine();
 
            

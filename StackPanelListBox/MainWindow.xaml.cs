@@ -29,5 +29,15 @@ namespace StackPanelListBox
         {
             MessageBox.Show("You clicked me!");
         }
+
+        private void Button_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Mouse Up event");
+        }
+
+        private void Button_PreviewMouseUpEvent(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Preview Mouse Up Event has been triggered.");
+        }
     }
 }

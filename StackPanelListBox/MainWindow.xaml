@@ -16,6 +16,8 @@
             </ListBox>
 
             <Button Content="Click me" Margin="20" Width="100" Click="Button_Click"></Button>
+            <Button Content="Mouse Up Event" Margin="20" Width="100" MouseUp="Button_MouseUp"></Button>
+            <Button Content="Preview Mouse Up Event" Margin="10" Width="200" PreviewMouseUp="Button_PreviewMouseUpEvent"></Button>
         </StackPanel>
     </Grid>
 </Window>

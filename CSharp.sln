@@ -161,6 +161,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanelListBox", "StackP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGrid", "WpfGrid\WpfGrid.csproj", "{1877093E-AB2B-4D71-A36B-0E6CAE786C58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDependencyProp", "WpfDependencyProp\WpfDependencyProp.csproj", "{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{1877093E-AB2B-4D71-A36B-0E6CAE786C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1877093E-AB2B-4D71-A36B-0E6CAE786C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1877093E-AB2B-4D71-A36B-0E6CAE786C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

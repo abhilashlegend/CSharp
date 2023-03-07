@@ -157,6 +157,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateFilter", "DelegateF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf", "Wpf\Wpf.csproj", "{C36A742F-963A-4FEC-B655-685C20AA5379}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanelListBox", "StackPanelListBox\StackPanelListBox.csproj", "{F54B6A40-49EC-44A7-8A12-5A32201D188C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -471,6 +473,10 @@ Global
 		{C36A742F-963A-4FEC-B655-685C20AA5379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36A742F-963A-4FEC-B655-685C20AA5379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36A742F-963A-4FEC-B655-685C20AA5379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54B6A40-49EC-44A7-8A12-5A32201D188C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54B6A40-49EC-44A7-8A12-5A32201D188C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54B6A40-49EC-44A7-8A12-5A32201D188C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54B6A40-49EC-44A7-8A12-5A32201D188C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

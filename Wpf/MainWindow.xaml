@@ -6,8 +6,11 @@
         xmlns:local="clr-namespace:Wpf"
         mc:Ignorable="d"
         Title="My first WPF Application" Height="450" Width="800">
+    <!-- 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="288,172,0,0" TextWrapping="Wrap" Text="Hello my name is Abhilash" VerticalAlignment="Top" Height="47" Width="147"/>
-
+        <TextBlock HorizontalAlignment="Center" Margin="0,32,0,0" FontSize="18" TextWrapping="Wrap" Text="Hello my name is Abhilash" VerticalAlignment="Top" Height="47" Width="300"/>
+        <Button Width="100" Content="Click Me" Foreground="CadetBlue" Margin="326,217,374,161" RenderTransformOrigin="0.5,0.5">
+        </Button>
     </Grid>
+    -->
 </Window>

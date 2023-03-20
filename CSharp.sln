@@ -155,13 +155,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateBasics", "DelegateB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateFilter", "DelegateFilter\DelegateFilter.csproj", "{CCE6983F-92A6-42DA-882B-52C780A9E742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf", "Wpf\Wpf.csproj", "{C36A742F-963A-4FEC-B655-685C20AA5379}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf", "Wpf\Wpf.csproj", "{C36A742F-963A-4FEC-B655-685C20AA5379}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanelListBox", "StackPanelListBox\StackPanelListBox.csproj", "{F54B6A40-49EC-44A7-8A12-5A32201D188C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackPanelListBox", "StackPanelListBox\StackPanelListBox.csproj", "{F54B6A40-49EC-44A7-8A12-5A32201D188C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGrid", "WpfGrid\WpfGrid.csproj", "{1877093E-AB2B-4D71-A36B-0E6CAE786C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfGrid", "WpfGrid\WpfGrid.csproj", "{1877093E-AB2B-4D71-A36B-0E6CAE786C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDependencyProp", "WpfDependencyProp\WpfDependencyProp.csproj", "{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfDependencyProp", "WpfDependencyProp\WpfDependencyProp.csproj", "{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{E70F2EF7-2DAB-45FF-BA54-33A14E7B9B20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -489,6 +491,10 @@ Global
 		{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC763ADA-7FB9-40D5-AA6E-FB5FE04613FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70F2EF7-2DAB-45FF-BA54-33A14E7B9B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70F2EF7-2DAB-45FF-BA54-33A14E7B9B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70F2EF7-2DAB-45FF-BA54-33A14E7B9B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70F2EF7-2DAB-45FF-BA54-33A14E7B9B20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

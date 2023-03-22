@@ -167,6 +167,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBinding", "DataBinding\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChangedInterface", "INotifyPropertyChangedInterface\INotifyPropertyChangedInterface.csproj", "{8CFD7D42-C950-4E63-AD6C-FFA10BD410F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListBox", "WpfListBox\WpfListBox.csproj", "{E047C9F0-75E5-4796-A09A-56E42DDB0051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -501,6 +503,10 @@ Global
 		{8CFD7D42-C950-4E63-AD6C-FFA10BD410F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CFD7D42-C950-4E63-AD6C-FFA10BD410F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CFD7D42-C950-4E63-AD6C-FFA10BD410F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E047C9F0-75E5-4796-A09A-56E42DDB0051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E047C9F0-75E5-4796-A09A-56E42DDB0051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E047C9F0-75E5-4796-A09A-56E42DDB0051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E047C9F0-75E5-4796-A09A-56E42DDB0051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -179,6 +179,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFRadioImg", "WPFRadioImg\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDataPropertyEventTriggers", "WPFDataPropertyEventTriggers\WPFDataPropertyEventTriggers.csproj", "{FC6D6CD0-150F-41B1-BC13-98CC5DDBB0BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPasswordBox", "WPFPasswordBox\WPFPasswordBox.csproj", "{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -537,6 +539,10 @@ Global
 		{FC6D6CD0-150F-41B1-BC13-98CC5DDBB0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC6D6CD0-150F-41B1-BC13-98CC5DDBB0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC6D6CD0-150F-41B1-BC13-98CC5DDBB0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

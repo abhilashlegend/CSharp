@@ -173,13 +173,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFComboBox", "WPFComboBox\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCheckBox", "WpfCheckBox\WpfCheckBox.csproj", "{5D65AA76-47BB-4919-914B-59AF5ADD01B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFToolTip", "WPFToolTip\WPFToolTip.csproj", "{76EE07CF-5229-4488-BF12-7E02FE6B6151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFToolTip", "WPFToolTip\WPFToolTip.csproj", "{76EE07CF-5229-4488-BF12-7E02FE6B6151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFRadioImg", "WPFRadioImg\WPFRadioImg.csproj", "{632FD2A5-94F1-4629-BED0-5CAA73B05081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFRadioImg", "WPFRadioImg\WPFRadioImg.csproj", "{632FD2A5-94F1-4629-BED0-5CAA73B05081}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDataPropertyEventTriggers", "WPFDataPropertyEventTriggers\WPFDataPropertyEventTriggers.csproj", "{FC6D6CD0-150F-41B1-BC13-98CC5DDBB0BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFDataPropertyEventTriggers", "WPFDataPropertyEventTriggers\WPFDataPropertyEventTriggers.csproj", "{FC6D6CD0-150F-41B1-BC13-98CC5DDBB0BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPasswordBox", "WPFPasswordBox\WPFPasswordBox.csproj", "{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFPasswordBox", "WPFPasswordBox\WPFPasswordBox.csproj", "{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooManager", "ZooManager\ZooManager.csproj", "{AF7F00BC-D29F-4573-A763-782E04FF7575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo", "LinqDemo\LinqDemo.csproj", "{26320F33-FC1B-47D5-8EEF-41A5B050493B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -543,6 +547,14 @@ Global
 		{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD1EC5A-B870-44C5-B9B1-AB3C85F7A2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7F00BC-D29F-4573-A763-782E04FF7575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7F00BC-D29F-4573-A763-782E04FF7575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7F00BC-D29F-4573-A763-782E04FF7575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7F00BC-D29F-4573-A763-782E04FF7575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26320F33-FC1B-47D5-8EEF-41A5B050493B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26320F33-FC1B-47D5-8EEF-41A5B050493B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26320F33-FC1B-47D5-8EEF-41A5B050493B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26320F33-FC1B-47D5-8EEF-41A5B050493B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

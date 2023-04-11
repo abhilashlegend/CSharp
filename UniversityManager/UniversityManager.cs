@@ -57,6 +57,10 @@ namespace UniversityManager
             students.Add(new Student { Id = 7, Name = "Anusha Ingalle", Age = 20, Gender = "female", UniversityId = 1 });
 
             students.Add(new Student { Id = 8, Name = "Aruna Kulkarni", Age = 20, Gender = "female", UniversityId = 2 });
+
+            students.Add(new Student { Id = 9, Name = "Amesha Patel", Age = 17, Gender = "female", UniversityId = 1 });
+
+            students.Add(new Student { Id = 10, Name = "Arjun Kapoor", Age = 24, Gender = "male", UniversityId = 2 });
         }
 
         public void MaleStudents()
@@ -79,6 +83,40 @@ namespace UniversityManager
             {
                 student.Print();
             }
+        }
+
+        public void SortStudentsByAge()
+        {
+            IEnumerable<Student> sortedStudents = from student in students orderby student.Age select student;
+
+            Console.WriteLine("Sorted Students By Age: ");
+            foreach(Student student in sortedStudents)
+            {
+                student.Print();
+            }
+        }
+
+        public void GetStudentsFromYale()
+        {
+            IEnumerable<Student> yaleStudents = from student in students join university in universities on student.UniversityId equals university.Id where university.Name == "Yale" select student;
+
+            Console.WriteLine("Students of Yale University");
+            foreach(Student student in yaleStudents)
+            {
+                student.Print();
+            }
+        }
+
+        public void GetStudentsFromKUD()
+        {
+            IEnumerable<Student> kudStudents = from student in students join university in universities on student.UniversityId equals university.Id where university.Name == "KUD" select student;
+
+            Console.WriteLine("Students of KUD University");
+            foreach(Student student in kudStudents)
+            {
+                student.Print();
+            }
+
         }
 
     }

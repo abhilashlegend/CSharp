@@ -119,5 +119,20 @@ namespace UniversityManager
 
         }
 
+        public void StudentAndUniversityNameCollection()
+        {
+           var studUniCollection = from student in students
+                                               join university in universities on student.UniversityId equals university.Id
+                                               orderby student.Name
+                                               select new { StudentName = student.Name, UniversityName = university.Name };
+
+            Console.WriteLine("New Collection");
+
+            foreach(var col in studUniCollection)
+            {
+                Console.WriteLine("Student {0} from University {1}", col.StudentName, col.UniversityName);
+            }
+        }
+
     }
 }

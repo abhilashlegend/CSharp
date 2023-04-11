@@ -15,6 +15,8 @@
             Console.WriteLine("\n");
             um.GetStudentsFromKUD();
             Console.WriteLine("\n");
+            um.StudentAndUniversityNameCollection();
+            Console.WriteLine("\n");
 
             int[] someInts = { 30, 12, 5, 87, 65, 45 };
             IEnumerable<int> sortedInts = from i in someInts orderby i select i;

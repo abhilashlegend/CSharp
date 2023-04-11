@@ -183,7 +183,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFPasswordBox", "WPFPasswo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooManager", "ZooManager\ZooManager.csproj", "{AF7F00BC-D29F-4573-A763-782E04FF7575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo", "LinqDemo\LinqDemo.csproj", "{26320F33-FC1B-47D5-8EEF-41A5B050493B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo", "LinqDemo\LinqDemo.csproj", "{26320F33-FC1B-47D5-8EEF-41A5B050493B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityManager", "UniversityManager\UniversityManager.csproj", "{98D4CF0F-57B3-48A0-B8F9-4EF8621FA210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -555,6 +557,10 @@ Global
 		{26320F33-FC1B-47D5-8EEF-41A5B050493B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26320F33-FC1B-47D5-8EEF-41A5B050493B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26320F33-FC1B-47D5-8EEF-41A5B050493B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D4CF0F-57B3-48A0-B8F9-4EF8621FA210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D4CF0F-57B3-48A0-B8F9-4EF8621FA210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D4CF0F-57B3-48A0-B8F9-4EF8621FA210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D4CF0F-57B3-48A0-B8F9-4EF8621FA210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
